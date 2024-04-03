@@ -2,6 +2,7 @@
 BigInt는 C++로 작성된 프로젝트로, 매우 큰 정수의 합과 차를 다루기 위한 기능을 제공합니다.   
 크기가 매우 큰 양수 뿐만 아니라, 0과 음수의 범위에서의 계산을 지원합니다.   
 이 프로젝트에는 main.cpp, sum2.cpp, min2.cpp, util.cpp 네 개의 파일이 포함되어 있습니다.   
+@version 1.0.0
 
 ## 파일 구성
 ### main.cpp
@@ -20,7 +21,7 @@ BigInt는 C++로 작성된 프로젝트로, 매우 큰 정수의 합과 차를 �
 컴파일러가 C++11 이상을 지원하는지 확인합니다.
 
 ```
-git clone https://github.com/leebarang/cpp-week1 calculator
+git clone https://github.com/leebarang/cpp-week1.git calculator
 cd calculator
 
 g++ -Werror -c main.cpp sum2.cpp sub2.cpp mul2.cpp div2.cpp
