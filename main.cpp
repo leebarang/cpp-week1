@@ -9,6 +9,7 @@ int div2(int a, int b);
 
 /**
  * 사칙연산을 구하는 프로그램
+ * @version 1.0.0
  * @author leebarang
  */
 int main() {
